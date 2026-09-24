@@ -5,7 +5,7 @@ from fastapi import HTTPException, Depends
 from fastapi.security import OAuth2PasswordBearer
 from models import User
 
-SECRET_KEY = "arsen_loh"
+SECRET_KEY = "arseт"
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 pwd_context = CryptContext(schemes =["bcrypt"], deprecated = "auto")
 
